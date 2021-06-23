@@ -12,6 +12,11 @@ const routes: Routes = [
     path: 'home/details',
     component: HomeComponent,
   },
+  {
+    path: '',
+    redirectTo:'login'
+    , pathMatch: 'full' 
+  },
 ];
 
 @NgModule({
